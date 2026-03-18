@@ -1,0 +1,89 @@
+
+(xfwm4:69): xfwm4-WARNING **: 14:25:58.897: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 256 bits)).
+
+(xfsettingsd:111): libupower-glib-WARNING **: 14:25:59.021: Couldn't connect to proxy: Could not connect: No such file or directory
+
+** (agent:142): CRITICAL **: 14:25:59.627: Failed to get connection to system bus: Could not connect: No such file or directory
+shared memfd open() failed: Function not implemented
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(polkit-gnome-authentication-agent-1:145): polkit-gnome-1-WARNING **: 14:25:59.698: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+(xfdesktop:126): GVFS-RemoteVolumeMonitor-WARNING **: 14:25:59.823: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfdesktop:126): WARNING **: 14:25:59.926: Failed to get system bus: Could not connect: No such file or directory
+
+(wrapper-2.0:132): GLib-GIO-CRITICAL **: 14:25:59.994: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:132): GLib-GIO-CRITICAL **: 14:25:59.995: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:132): GLib-GObject-WARNING **: 14:25:59.995: invalid (NULL) pointer instance
+
+(wrapper-2.0:132): GLib-GObject-CRITICAL **: 14:25:59.995: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:132): Gtk-WARNING **: 14:25:59.995: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:131): WARNING **: 14:26:00.014: Binding 'XF86AudioMicMute' failed!
+
+(wrapper-2.0:131): pulseaudio-plugin-WARNING **: 14:26:00.015: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+shared memfd open() failed: Function not implemented
+
+** (xiccd:227): CRITICAL **: 14:26:00.058: Failed to connect to colord: Could not connect: No such file or directory
+
+** (xfce4-power-manager:213): WARNING **: 14:26:00.058: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:213): WARNING **: 14:26:00.059: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":0.0".
+
+(xfce4-power-manager:213): xfce4-power-manager-WARNING **: 14:26:00.061: Monitor is not DPMS capable
+
+(xfce4-power-manager:213): GLib-GIO-CRITICAL **: 14:26:00.061: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(wrapper-2.0:132): Gtk-WARNING **: 14:26:00.072: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(xfce4-session:11): xfce4-session-WARNING **: 14:26:00.077: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-power-manager:213): libupower-glib-WARNING **: 14:26:00.079: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:213): xfce4-power-manager-CRITICAL **: 14:26:00.081: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:213): xfce4-power-manager-CRITICAL **: 14:26:00.081: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:213): xfce4-power-manager-CRITICAL **: 14:26:00.081: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:213): xfce4-power-manager-WARNING **: 14:26:00.083: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:213): xfce4-power-manager-WARNING **: 14:26:00.083: could not map keysym 1008ffa7 to keycode
+
+
+(xfce4-power-manager:213): xfce4-power-manager-WARNING **: 14:26:00.083: could not map keysym 1008ff02 to keycode
+
+
+(xfce4-power-manager:213): xfce4-power-manager-WARNING **: 14:26:00.083: could not map keysym 1008ff03 to keycode
+
+
+(xfce4-power-manager:213): xfce4-power-manager-WARNING **: 14:26:00.083: Unable connect to system bus: Could not connect: No such file or directory
+
+(xfce4-session:11): xfce4-session-WARNING **: 14:26:00.090: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+** (xfce4-power-manager:213): WARNING **: 14:26:00.099: No outputs have backlight property
+
+(wrapper-2.0:131): Gtk-WARNING **: 14:26:00.099: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(xfce4-session:11): xfce4-session-WARNING **: 14:26:00.103: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-power-manager:213): xfce4-power-manager-CRITICAL **: 14:26:00.112: Unable to get system bus connection : Could not connect: No such file or directory
+
+** (xfce4-screensaver:221): WARNING **: 14:26:00.115: screensaver already running in this session
+
+(wrapper-2.0:154): Gtk-WARNING **: 14:26:00.126: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(Thunar:120): GVFS-RemoteVolumeMonitor-WARNING **: 14:26:04.547: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(xfce4-power-manager:213): GLib-GObject-CRITICAL **: 14:29:24.420: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfce4-power-manager:213): GLib-GObject-CRITICAL **: 14:29:24.420: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
