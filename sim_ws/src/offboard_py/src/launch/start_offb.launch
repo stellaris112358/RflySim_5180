@@ -1,0 +1,5 @@
+<launch>
+  <group ns="uav0"> 
+    <node pkg="offboard_py" type="offb_node.py" name="offb_node_py" output="screen" />
+  </group>
+</launch>

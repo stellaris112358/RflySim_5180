@@ -1,0 +1,22 @@
+<launch>
+
+  <arg name="uav_id" default="uav1" />
+
+
+
+<group ns="$(arg uav_id)">
+    <!-- 起飞后发一个目标点给飞控 -->
+    <node pkg="mission_pkg" type="bt_ros" name="test_planner" output="screen">
+      <param name="config_path" value="$(find mission_pkg)/config/test_cross.xml" type="str"/>
+      <remap from="/move_base_simple/goal" to="/$(arg uav_id)/move_base_simple/goal" />
+      <remap from="/mavros/state" to="/$(arg uav_id)/mavros/state" />
+      <remap from="/mavros/local_position/pose" to="/$(arg uav_id)/mavros/local_position/pose" />
+      <remap from="/mavros/setpoint_raw/local" to="/$(arg uav_id)/mavros/setpoint_raw/local" />
+      <remap from="/mavros/local_position/odom" to="/$(arg uav_id)/mavros/local_position/odoml" />
+      <remap from="/mavros/set_mode" to="/$(arg uav_id)/mavros/set_mode" />
+      <remap from="/mavros/cmd/arming" to="/$(arg uav_id)/mavros/cmd/arming" />
+      <remap from="/grid_map/occupancy_inflate" to="/$(arg uav_id)/grid_map/occupancy_inflate" />
+      <remap from="/odom_visualization/path" to="/$(arg uav_id)/odom_visualization/path" />
+    </node>
+    </group>
+</launch>
